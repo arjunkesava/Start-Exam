@@ -1,0 +1,193 @@
+Enter password: *****
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 279
+Server version: 5.1.68-community MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> use exam;
+Database changed
+mysql> desc c_language_que;
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| question | varchar(200) | YES  |     | NULL    |       |
+| orians   | varchar(100) | YES  |     | NULL    |       |
+| qno      | int(5)       | YES  |     | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+3 rows in set (0.01 sec)
+
+mysql> alter c_language_que modify(qno int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near 'c_language_que modify(qno int(5) un
+ique)' at line 1
+mysql> alter tabler c_language_que modify(qno int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near 'tabler c_language_que modify(qno in
+t(5) unique)' at line 1
+mysql> alter table c_language_que modify(qno int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near '(qno int(5) unique)' at line 1
+mysql> alter table c_language_que (qno int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near '(qno int(5) unique)' at line 1
+mysql> alter table c_language_que modify(qno int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near '(qno int(5) unique)' at line 1
+mysql> alter table c_language_que modify('qno' int(5) unique);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near '('qno' int(5) unique)' at line 1
+mysql> alter table c_language_que modify qno int(5) unique;
+Query OK, 5 rows affected (0.23 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> desc c_language_que;
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| question | varchar(200) | YES  |     | NULL    |       |
+| orians   | varchar(100) | YES  |     | NULL    |       |
+| qno      | int(5)       | YES  | UNI | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> alter table c_language_que add ans1 varchar(100),ans2 varchar(100), ans3 varchar(100), a
+ns4 varchar(100);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near 'ans2 varchar(100), ans3 varchar(100
+), ans4 varchar(100)' at line 1
+mysql> alter table c_language_que add (ans1 varchar(100),ans2 varchar(100), ans3 varchar(100),
+ans4 varchar(100));
+Query OK, 5 rows affected (0.17 sec)
+Records: 5  Duplicates: 0  Warnings: 0
+
+mysql> desc c_language_que;
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| question | varchar(200) | YES  |     | NULL    |       |
+| orians   | varchar(100) | YES  |     | NULL    |       |
+| qno      | int(5)       | YES  | UNI | NULL    |       |
+| ans1     | varchar(100) | YES  |     | NULL    |       |
+| ans2     | varchar(100) | YES  |     | NULL    |       |
+| ans3     | varchar(100) | YES  |     | NULL    |       |
+| ans4     | varchar(100) | YES  |     | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> select * from c_language_que;
++------------------------------------------------------------------------------+---------------
+------------------------------------+------+------+------+------+------+
+| question                                                                     | orians
+                                    | qno  | ans1 | ans2 | ans3 | ans4 |
++------------------------------------------------------------------------------+---------------
+------------------------------------+------+------+------+------+------+
+| 1) In C Language, can we write a loop program without using loop statements? | A)Yes
+                                    |    0 | NULL | NULL | NULL | NULL |
+| 2) An Instruction Pipeline is called when the following                      | D)Arthimetic O
+perations                           |    1 | NULL | NULL | NULL | NULL |
+| 3) TCP/IP stands for?                                                        | B)Transmission
+ Control Protocol/Internet Protocol |    2 | NULL | NULL | NULL | NULL |
+| 4) C++ was originally Developed by                                           | C)Bjarne Strou
+strup                               |    3 | NULL | NULL | NULL | NULL |
+| 5) SQL stands for                                                            | A)Structured Q
+uery Language                       |    4 | NULL | NULL | NULL | NULL |
++------------------------------------------------------------------------------+---------------
+------------------------------------+------+------+------+------+------+
+5 rows in set (0.00 sec)
+
+mysql> delete from c_language_que;
+Query OK, 5 rows affected (0.02 sec)
+
+mysql> insert into c_language_que values("1) In C Language, can we write a loop program without
+ using loop statements?", "A)Yes" , 0 ,"A)Yes","B)No","C)May be","D)Error");
+Query OK, 1 row affected (0.04 sec)
+
+mysql> insert into c_language_que values("2) An Instruction Pipeline is called when the followi
+ng", "D)Arthimetic Operations" , 1 ,"A)Register Transfer","B)Branch","C)Stack Operations","D)Ar
+thimetic Operations");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("3) TCP/IP stands for?", "B)Transmission Control Proto
+col/Internet Protocol" , 2 ,"A)Transition Control Protocol/Internet Protocol","B)Transmission C
+ontrol Protocol/Internet Protocol","C)Transfer Control Protocol/Internet Protocol","D)None of t
+he above");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into c_language_que values("4) C++ was originally Developed by", "C)Bjarne Strous
+trup",3,"A)Nicolas Writh","B)Donaled Knuth","C)Bjarne Stroustrup","D)Ken Thompson");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("5) SQL stands for", "A)Structured Query Language",4,"
+A)Structured Query Language","B)Standarad Query Language",C)Simple Query Language"","D)None of
+these");
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near 'Simple Query Language"","D)None of
+these")' at line 1
+mysql> insert into c_language_que values("5) SQL stands for", "A)Structured Query Language",4,"
+A)Structured Query Language","B)Standarad Query Language","C)Simple Query Language","D)None of
+these");
+Query OK, 1 row affected (0.04 sec)
+
+mysql> insert into c_language_que values("6) A stack is also known as ", "A)LIFO",5,"A)LIFO","B
+)FIFO","c)FILO","D)None of these");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into c_language_que values("7) Arrays can be initialized provided they are","D)bo
+th B and C",7,"A)Automatic","B)External","C)Static","D)both B and C");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> insert into c_language_que values("8) Items can be removed from both ends of a","C)Deque
+ue",8,"A)","B)","C)","");
+Query OK, 1 row affected (0.03 sec)
+
+mysql> delete from c_language_que where qno ==7;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to
+your MySQL server version for the right syntax to use near '==7' at line 1
+mysql> delete from c_language_que where qno =7;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> delete from c_language_que where qno =8;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("7) Arrays can be initialized provided they are","D)bo
+th B and C",6,"A)Automatic","B)External","C)Static","D)both B and C");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("8) Items can be removed from both ends of a","C)Deque
+ue",8,"A)Stack","B)Queue","C)Dequeue","D)None of the above");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("9) Any C program","A)Must contain atleast one functio
+n",9,"A)Must contain atleast one function","B)Need not contain any function","C)Needs input dat
+a ","D)None of the above");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> delete from c_language_que where qno =8;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("8) Items can be removed from both ends of a","C)Deque
+ue",7,"A)Stack","B)Queue","C)Dequeue","D)None of the above");
+Query OK, 1 row affected (0.01 sec)
+
+mysql> delete from c_language_que where qno =9;
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("9) Any C program","A)Must contain atleast one functio
+n",8,"A)Must contain atleast one function","B)Need not contain any function","C)Needs input dat
+a ","D)None of the above");
+Query OK, 1 row affected (0.02 sec)
+
+mysql> insert into c_language_que values("10) In a for loop, if the condition is missing then "
+,"B)It is assumed to be present abd taken to be true",9,"A)Must contain atleast one function","
+B)It is assumed to be present abd taken to be true","C)It results in Syntax error","D)Execution
+ will be terminated abruptly");
+Query OK, 1 row affected (0.03 sec)
+
+mysql>

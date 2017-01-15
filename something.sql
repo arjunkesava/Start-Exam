@@ -1,0 +1,43 @@
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Pink city of India is', 'A. Jaipur', 'B. Chennai', 'C. C. Mysore', 'D. Hyderabad', 'A. Jaipur', '0');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which place India holds in milk production in the world?\r\n', 'A. First', 'B. Second', 'C. Third', 'D. Fourth', 'A. First', '1');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Individual cannot open his account in', 'A. Scheduled Commercial Banks', 'B. Urban Cooperative Bank', 'C. Regional Rural Bank', 'D. Reserve Bank of India', 'D. Reserve Bank of India', '2');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Country that was called as “Land of Rising Sun”', 'A. Russia', 'B. Korea', 'C. Japan', 'D. Holland', 'C. Japan', '3');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Country that is highest in ground nut production', 'A. India', 'B. U.S.A.', 'C. Phillipines', 'D. Malaysia', 'A. India', '4');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('“ASHA” is a scheme of the Government of India operated in the area of', 'A. Housing for rural masses', 'B. Infrastructural development', 'C. Drip irrigation', 'D. Health and family welfare\r\n', 'D. Health and family welfare\r\n', '5');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which of the following gases finds its application in extinguisher fire?\r\n', 'A. Nitrogen', 'B. Oxygen', 'C. Carbon Dioxide', 'D. Carbon Monoxide', 'C. Carbon Dioxide', '6');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The Government of India is planning to bring how much more land under irrigation? About ----', 'A. 1 million hectare', 'B. 1.5 million hectares', 'C. 2 million hectares', 'D. 2.5 million hectares', 'D. 2.5 million hectares', '7');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Who is the author of Wedding Album?\r\n', 'A. ShashiPandcy', 'B. ShobhaDe', 'C. GirishKamard', 'D. Amit Chaudhary', 'C. GirishKamard', '8');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Who is the Supreme Court Commander of Defence Forces of India?\r\n', 'A. The President', 'B. Supreme Court', 'C. Army Chief', 'D. The Prime Minister', 'B. Supreme Court', '9');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which of the following is not correct?\r\n', 'A. Cash Reserve Ratio 6.5%', 'B. Repo Rate 7.75%', 'C. Bank Rate 6%', 'D. Statutory Liquidity Ratio 35%\r\n', 'D. Statutory Liquidity Ratio 35%\r\n', '10');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('James Bond is a character created by\r\n', 'A. Erl Stanley Gardener', 'B. Perry Mason', 'C. Lan Fleming', 'D. P.G. Wode House\r\n', 'C. Lan Fleming', '11');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The Indira Gandhi Open University was established under an act of Parliament in', 'A. 1975', 'B. 1980', 'C. 1985', 'D. 1995', 'C. 1985', '12');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which statutory official in India can participate in Lok Sabha discussions but can not vote?', 'A. Attorney General', 'B. Chief Election Commissioner', 'C. Comptroller and Auditor General', 'D. Chairman Finance Commission\r\n', 'A. Attorney General', '13');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The overflow of which of the following major rivers from Nepal flooded some parts of Bihar recently?', 'A. Gandak', 'B. Ghaghra', 'C. Kosi', 'D. Sone', 'C. Kosi', '14');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The Worlds largest oil company is', 'A. Burmah shell', 'B. Castrol', 'C. Indian Oil', 'D. Bharat Petroleum', 'C. Indian Oil', '15');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The famous work of Leo Tolstoy is', 'A. War and Peace', 'B. Illiad', 'C. Great Expectations', 'D. The Merchant of Venice', 'A. War and Peace', '16');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which is the religious book of the Parsis?\r\n', 'A. Quran', 'B. Zend Avesta', 'C. Torah', 'D. None of the above', 'B. Zend Avesta', '17');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('The largest inland oil refinery in India is located in\r\n', 'A. Chennai', 'B. Mathura', 'C. Cochin', 'D. Digboi', 'B. Mathura', '18');
+INSERT INTO `exam`.`gk_que` (`question`, `uans1`, `uans2`, `uans3`, `uans4`, `orians`, `qno`) VALUES ('Which is the national animal of India?\r\n', 'A. Cow', 'B. Lion', 'C. Tiger', 'D. leopard', 'C. Tiger', '19');
+
+
+INSERT INTO `exam`.`english_que` VALUES('Besides his parents, he _________also present at the function.','A. is','B. was','C. has','D. has been','B. was',0);
+INSERT INTO `exam`.`english_que` VALUES('The thunder was accompanied ______a heavy rain. ','A. from','B. by','C. up','D. through','B. by',1);
+INSERT INTO `exam`.`english_que` VALUES('Choose the misspelt word. ','A. disparity','B. illusion','C. inevitable ','D. middle ','A. disparity',2);
+INSERT INTO `exam`.`english_que` VALUES('_____things of beauty is a joy forever.','A. the','B. a','C. an','D. none of these','A. the',3);     
+INSERT INTO `exam`.`english_que` VALUES('Identify the antonym of the word "Embellish".','A. Sacrifice','B. Disfigure','C. Foreit','D. Indict ','B. Disfigure',4);     
+INSERT INTO `exam`.`english_que` VALUES('A well experienced person is often called','A. wise man ','B. Intelligent','C. Old man','D. Veteran  ','D. Veteran ',5);     
+INSERT INTO `exam`.`english_que` VALUES('An accident which results in death is called as ','A. Injurious','B. Dangerous','C. Fatal','D. Terrible','C. Fatal',6);
+INSERT INTO `exam`.`english_que` VALUES('He has purchased a bag of ____________','A. floor','B. flour','C. flower','D. flaur','B. flour',7);
+INSERT INTO `exam`.`english_que` VALUES('The synonym for "Zest" is ','A. Pleasure','B. Distaste','C. Flop','D. Encircles','A. Pleasure',8);
+INSERT INTO `exam`.`english_que` VALUES('He will never pass,______hard he may try','A. However','B. Whatever','C. Never','D. Whenever ','A. However',9);
+INSERT INTO `exam`.`english_que` VALUES('The Adjective of "Gold" is ','A. The Gold','B. Golder','C. Golden','D. Goldest ','C. Golden',10);
+INSERT INTO `exam`.`english_que` VALUES('The plural of the word "Hero" is ','A. Heroine','B. Heros','C. Heroies','D. Heroes','D. Heroes',11);
+INSERT INTO `exam`.`english_que` VALUES('Barking dogs ____ bite','A. Regularly','B. Rarely','C. Seldom','D. Frequently  ','C. Seldom',12);
+INSERT INTO `exam`.`english_que` VALUES('The insects are a great nuisance _______ us.','A. for','B. with','C. at','D. None of the above','A. for',13);
+INSERT INTO `exam`.`english_que` VALUES('He had to repent _______ what he had done.','A. of','B. over','C. for','D. at','C. for',14);
+INSERT INTO `exam`.`english_que` VALUES('The reward was not commensurate _______ the work done by us.','A. for','B. with','C. at','D. None of the above','A. for',15);
+INSERT INTO `exam`.`english_que` VALUES('The mother was anxious _______ the safety of her son.','A. on','B. for','C. with','D. order','C. with',16);
+INSERT INTO `exam`.`english_que` VALUES('My cousin has invested a lot of money _______ farming.','A. in','B. for','C. on','D. into','A. in',17);
+INSERT INTO `exam`.`english_que` VALUES('After having tea, he settled himself _______ his arm chair.','A. into','B. over','C. to','D. on','A. into',18);
+INSERT INTO `exam`.`english_que` VALUES('There is no hindrance _______ his going there.','A. to','B. on','C. over','D. at','A. to',19);
+

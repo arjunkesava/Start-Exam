@@ -1,0 +1,123 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="exampagecss.css">
+<style>
+        div.rambox {
+            position:fixed;
+            top:50%;
+            width:100%;
+            height:20%;
+            background-color:oldlace;
+            opacity:0.9;
+        }
+		hr {
+ color: blue;
+ background-color: blue;
+ height: 1px;
+}
+    </style>
+</head>
+
+<body bgcolor="efeef1">
+<div id="banner">
+    <div class="w">
+        <h1 class="exam_name"><?php  echo $_SESSION['examname'];   ?></h1><h1 align="right">
+        <a class="logout" href="logout.php"><font size="4" align="left" style="font-family: Segoe UI Symbol;">Logout</font></a>
+        <font class="time" color="#FF0000" id="txt" face="Segoe UI" size="50px"></font>   
+        </h1>
+    </div>
+</div> 
+    <table width="100%" height="1346" border="0" align="left" cellpadding="0" cellspacing="2"  class="bgpaper">
+<tr>
+            <td height="1342">
+              <form method="post" action="anscheck.php" id="timesub">
+                    <table class="position" width="85%" border="0" cellspacing="0" cellpadding="1" align="right">
+                        <tr class="question">
+                            <td colspan="4"><p>1) In C Language, can we write a loop program without using loop statements?<hr></p></td>
+                        </tr>
+                        <tr>    
+                            <td class="high" colspan="4" style="background-color:#FFFFFF;"><input name="one" type="radio" id="one" value="A)Yes">A)Yes<hr></td>
+                            </tr>
+                            <tr>
+                            <td colspan="4" class="high"  style="background-color:#FFFFFF;"><input name="one" type="radio" id="one" value="B)No">B)No<hr></td>
+                      </tr>
+                            <tr>
+                            <td class="high" colspan="4"  style="background-color:#FFFFFF;"><input name="one" type="radio" id="one" value="C)May be">C)May be<hr></td>
+                            </tr>
+                            <tr>
+                            <td class="high" colspan="4"  style="background-color:#FFFFFF;"><input name="one" type="radio" id="one" value="D)Error">D)Error<hr></td>
+                        </tr>
+                        <tr  class="question">
+                            <td colspan="4"><p>2) An Instruction Pipeline is called when the following<hr></p></td>
+                        </tr>
+                        <tr>    
+                            <td class="high" colspan="4"><input name="two" type="radio" id="two" value="A)Register Transfer">A)Register Transfer<hr></td>
+ 		                          </tr>
+                            <tr>
+                            <td class="high" colspan="4"><input name="two" type="radio" id="two" value="B)Branch">B)Branch<hr></td>
+                            </tr>
+                            <tr>
+                            <td class="high" colspan="4"><input name="two" type="radio" id="two" value="C)Stack Operations">C)Stack Operations<hr></td>
+                            </tr>
+                            <tr>
+                            <td class="high" colspan="4"><input name="two" type="radio" id="two" value="D)Arthimetic Operations">D)Arthimetic Operations<hr></td>
+                        </tr>
+                        <tr class="question">
+                            <td colspan="4"><p>3) TCP/IP stands for?<hr></p></td>
+                        </tr>
+                        <tr>    
+                            <td class="high" colspan="4"><input name="three" type="radio" id="three" value="A)Transition Control Protocol/Internet Protocol">A)Transition Control Protocol/Internet Protocol</td>
+                        </tr>
+                        <tr>
+                            <td class="high" colspan="4"><input name="three" type="radio" id="three" value="B)Transmission Control Protocol/Internet Protocol">B)Transmission Control Protocol/Internet Protocol</td>
+                        </tr>
+                        <tr>
+                            <td class="high" colspan="4"><input name="three" type="radio" id="three" value="C)Transfer Control Protocol/Internet Protocol">C)Transfer Control Protocol/Internet Protocol</td>
+                        </tr>
+                        <tr>
+                            <td class="high" colspan="4"><input name="three" type="radio" id="three" value="D)None of the above">D)None of the above</td>
+                        </tr>
+                        <tr class="question">
+                            <td colspan="4"><p>4) C++ was originally Developed by<hr></p></td>
+                        </tr>
+                        <tr>    
+                            <td class="high" colspan="4"><input name="four" type="radio" id="four" value="A)Nicolas Writh">A)Nicolas Writh</td>
+                            </tr>
+                            <tr>
+                            <td class="high" colspan="4"><input name="four" type="radio" id="four" value="B)Donald Knuth">B)Donaled Knuth</td>
+                        </tr>
+                        <tr>
+                            <td class="high" colspan="4"><input name="four" type="radio" id="four" value="C)Bjarne Stroustrup">C)Bjarne Stroustrup</td>
+                            </tr>
+                            <tr>
+                            <td class="high" colspan="4"><input name="four" type="radio" id="four" value="D)Ken Thompson">D)Ken Thompson</td>
+                        </tr>
+                        <tr class="question">
+                            <td colspan="4"><p>5) SQL stands for<hr></p></td>
+                        </tr>
+                        <tr>    
+                            <td class="high" colspan="4"><input name="five" type="radio" id="five" value="A)Structured Query Language">A)Structured Query Language</td>
+                           </tr>
+                        <tr> 
+                            <td class="high" colspan="4"><input name="five" type="radio" id="five" value="B)Standarad Query Language">B)Standarad Query Language</td>
+                        </tr>
+                        <tr>
+                        <td class="high" colspan="4"><input name="five" type="radio" id="five" value="C)None of these">C)None of these</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                            
+                                <input type="button" name="Submit" value="Submit" class="subbox" onClick="ctime()"></td>
+                            <td colspan="2" align="center">
+                                <input type="reset" value="Clear"  class="subbox"></td>
+                        </tr>
+                    </table>
+              </form>
+            </td>
+      </tr>
+    </table>
+
+</body>
+</html>
+<?php echo"</div>";?>

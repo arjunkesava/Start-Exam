@@ -1,0 +1,74 @@
+   #banner h1.exam_name{
+    line-height: 90px;
+    position:absolute;
+       top:-35px;
+}
+#banner a.logout{
+    line-height: 90px;
+    position:absolute;
+       top:-15px;
+       left: 80%;
+}
+#banner font.time{
+    position:absolute;
+       top:-10px;
+       left: 50%;
+       width: 50%;
+}
+   table.bgpaper{
+
+   background-position:top;
+   background-repeat:no-repeat;
+   width:100%;
+   }
+   table.position{
+    position:absolute;
+    top:115px;
+    left: 225px;
+    width: 1073px;
+    height: 530px;
+   }
+   tr.question{
+   font-size:24px;
+   font-family: Segoe UI;
+	background-color:white;
+   }
+   td.high{
+   font-size:20px;
+   font-family: Segoe UI Symbol;
+   background-color:white;
+   color:green;
+   }
+   td.high:hover{
+   cursor:pointer;
+   }
+   
+   p{
+   font-family: Segoe UI;
+   color:#FF8000;
+   }
+   input.subbox {
+       -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.20), rgba(0,0,0,0.12) 0px 0px 10px inset;
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.20), rgba(0,0,0,0.12) 0px 0px 10px inset;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 0px;
+    background: #f15a22;
+    height:30px;
+    width:100px;
+    }
+    #banner {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 5px solid #7F7F7F;
+    background: #fff;
+    -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    z-index: 999999;
+}
+
